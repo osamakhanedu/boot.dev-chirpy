@@ -1,0 +1,17 @@
+# ignore generate executable files 
+
+# ignore generated files
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.log
+*.tmp
+*.bak
+*.swp
+*.class
+*.pyc
+*.pyo
+*.jar
