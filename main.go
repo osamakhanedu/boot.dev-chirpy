@@ -4,7 +4,10 @@ import "net/http"
 
 func main() {
 
+	// serve files from the current directory
+
 	mux := http.NewServeMux()
+	mux.Handle("/", http.FileServer(http.Dir(".")))
 
 	server := http.Server{
 		Addr:    ":8080",
